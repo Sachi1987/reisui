@@ -1,0 +1,41 @@
+.map {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.google-map {
+  position: relative;
+  width: 100%;    /* 左右に余白が必要なら値を変更してもOK */
+  height: 0;
+  padding-bottom: 56.25%;    /* padding-topでもOK */
+  overflow: hidden;
+}
+.google-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;    /* 必要であれば!importantを付けてください */
+  height: 100%;    /* 必要であれば!importantを付けてください */
+}
+
+.home, .sub-place{
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  align-item: center;
+  justify-content: space-around;
+}
+
+.info-text{
+  font-weight: bold;
+  background-color: white;
+  font-size: 15px;
+}
