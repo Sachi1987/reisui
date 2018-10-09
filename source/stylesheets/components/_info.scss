@@ -1,9 +1,9 @@
-/* 黒板風　タイトル */
+/* 黒板風　タイトル　2 */
 .kokuban-t2 {
-  position: relative;
-  margin: 2em auto;
-  padding: 20px 0;
-  width: 80%; /* ボックス幅 */
+  // position: relative;
+  margin: 20px 0;
+  padding: 15px 0;
+  // width: 400px; /* ボックス幅 */
   background-color: #006633; /* ボックス背景色 */
   color: #fff; /* 文章色 */
   border: 8px solid #b2771f; /* 枠線 */
@@ -12,24 +12,31 @@
 }
 .kokuban-t2::before,
 .kokuban-t2::after {
- position: absolute;
- content: '';
- bottom: 0;
+  position: absolute;
+  content: '';
+  bottom: 0;
 }
 .kokuban-t2::before {
- right: 10px;
- border: solid 3px #fff; /*チョーク（白）*/
- width: 20px;
- border-radius: 3px 2px 0 2px;
+  right: 10px;
+  border: solid 3px #fff; /*チョーク（白）*/
+  width: 20px;
+  border-radius: 3px 2px 0 2px;
 }
 .kokuban-t2::after {
- right: 40px;
- border: solid 3px #ffff6b; /*チョーク（黄色）*/
- width: 15px;
- border-radius: 8px 5px 2px 5px;
+  right: 40px;
+  border: solid 3px #ffff6b; /*チョーク（黄色）*/
+  width: 15px;
+  border-radius: 8px 5px 2px 5px;
 }
 .title-t2 {
- font-weight: bold;
- font-size: 1.1em;
- color: #ffff6b; /* タイトル色 */
+  // position: absolute;
+  align-items: center;
+  top: .5em;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #ffff6b; /* タイトル色 */
+}
+
+.info {
+  vertical-align: center;
 }
