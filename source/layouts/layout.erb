@@ -6,7 +6,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>早良区の習字教室「北島玲翠」</title>
+    <title>早良区の玲翠教室</title>
     <meta name="description" content="福岡市早良区原にある習字教室です。4歳から80代の方々まで美しい文字を書けるように励んでいます。">
     <meta name= “keywords” content="福岡市早良区,習字教室,書道">
 
@@ -33,6 +33,14 @@
       </script>
   </head>
   <body>
+    <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.1&appId=800410130289922&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
     <%= partial "layouts/navbar" %>
     <%= yield %>
     <%= partial "layouts/footer" %>
